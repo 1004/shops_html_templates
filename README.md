@@ -1,11 +1,13 @@
-1. 准备服务器
-服务器语言： php5.0
-数据库： MySQL
+1. System Requirements
+Server Language Support： php > 5.0
+Database Server： MySQL
 
-2. 将应用程序上传到服务器并解压指定文件夹
+2. Upload the source code and unzip it.
 
-3. 在MySQL数据库中创建一个数据库
+3. Create a schema in your databse server.
 
-4. 运行setup.php，并在setup中输入数据库相关信息后，点击install按钮
+4. Prepare the config.php
+* Solution I: visit the setup.php and submit the form
+* Solution II: edit the config.php directly in your server.
 
-5. 安装已完成，可以进入并分享index.php页面
+5. Finished. Now, you can visit the index.php, test it and share it.

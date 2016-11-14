@@ -1,4 +1,4 @@
-### Installation Guid for The Durex LOVE_IS_FOUND Game
+### Installation Guide for The Durex LOVE_IS_FOUND Game
 1. System Requirements
 Server Language Support： php > 5.0
 Database Server： MySQL

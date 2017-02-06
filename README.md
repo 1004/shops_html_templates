@@ -7,8 +7,24 @@ Database Server： MySQL
 
 3. Create a schema in your databse server.
 
-4. Prepare the config.php
+4. Run the SQL Code below to create a table in your database.
+CREATE TABLE `durex_15214_roomdata` (
+  `roomId` varchar(32) NOT NULL,
+  `status` int(11) DEFAULT '0',
+  `t` timestamp NULL DEFAULT NULL,
+  `p1` int(11) DEFAULT '0',
+  `p2` int(11) DEFAULT '0',
+  `p1t` timestamp NULL DEFAULT NULL,
+  `p2t` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`roomId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+5. Prepare the config.php
  * Solution I: visit the setup.php and submit the form
  * Solution II: edit the config.php directly in your server.
+
+6. Visit <domain>/sql_test.php to check if SQL Connection is created already.
+
+7. Delete these files: sql_test.php, config.php
 
 5. Finished. Now, you can visit the index.php, test it and share it.

@@ -26,6 +26,6 @@ Database Server： MySQL
 
 6. Visit <domain>/sql_test.php to check if SQL Connection is created already.
 
-7. #!Important# Delete these files: sql_test.php, config.php
+7. #!Important# Delete these files: sql_test.php, setup.php
 
 8. Finished. Now, you can visit the index.php, test it and share it.

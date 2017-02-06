@@ -8,6 +8,7 @@ Database Server： MySQL
 3. Create a schema in your databse server.
 
 4. Run the SQL Code below to create a table in your database.
+
 CREATE TABLE `durex_15214_roomdata` (
   `roomId` varchar(32) NOT NULL,
   `status` int(11) DEFAULT '0',

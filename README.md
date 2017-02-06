@@ -9,16 +9,16 @@ Database Server： MySQL
 
 4. Run the SQL Code below to create a table in your database.
 
-CREATE TABLE `durex_15214_roomdata` (
-  `roomId` varchar(32) NOT NULL,
-  `status` int(11) DEFAULT '0',
-  `t` timestamp NULL DEFAULT NULL,
-  `p1` int(11) DEFAULT '0',
-  `p2` int(11) DEFAULT '0',
-  `p1t` timestamp NULL DEFAULT NULL,
-  `p2t` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`roomId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  CREATE TABLE `durex_15214_roomdata` (
+    `roomId` varchar(32) NOT NULL,
+    `status` int(11) DEFAULT '0',
+    `t` timestamp NULL DEFAULT NULL,
+    `p1` int(11) DEFAULT '0',
+    `p2` int(11) DEFAULT '0',
+    `p1t` timestamp NULL DEFAULT NULL,
+    `p2t` timestamp NULL DEFAULT NULL,
+    PRIMARY KEY (`roomId`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 5. Prepare the config.php
  * Solution I: visit the setup.php and submit the form
@@ -28,4 +28,4 @@ CREATE TABLE `durex_15214_roomdata` (
 
 7. Delete these files: sql_test.php, config.php
 
-5. Finished. Now, you can visit the index.php, test it and share it.
+8. Finished. Now, you can visit the index.php, test it and share it.
